@@ -1,0 +1,53 @@
+#exceptions
+
+
+def main():
+    x = get_int()
+    print(f"x is {x}")
+
+
+def get_int():
+    while True:
+        try:
+            x = int(input("enter the value of x "))
+        except ValueError:
+            print("x is not an integer")
+        else:
+            return x
+main()
+   
+
+
+
+
+"""
+
+print("hellow, world")
+
+x = int(input("what is z "))
+print(f"x is {x}")
+
+# invalid literal for int() with base 10: 'krishna'
+
+
+# Name error && order of an op
+
+
+"""
+
+"""
+while True:
+    try:
+      x = int(input("enter the x value"))
+    #sprint(x)
+    except ValueError:
+         print("x is not an integer")
+    else:
+
+         print 
+
+
+"""  
+
+
+
